@@ -19,12 +19,12 @@ console.log(myObj);
 
 
 
-
 //#2
  
 var myNum = 8;
 var decimal2 = myNum.toFixed(2);
 console.log(decimal2);
+
 
 
 // #3
@@ -74,6 +74,8 @@ console.log(myRandom);
 
 var myPow = Math.pow(3, 5);
 console.log(myPow);
+
+
 
 //#6
 
