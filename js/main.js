@@ -21,7 +21,7 @@ console.log(myObj);
 
 //#2
  
-var myNum = 8;
+var myNum = 10;
 var decimal2 = myNum.toFixed(2);
 console.log(decimal2);
 
@@ -96,7 +96,7 @@ console.log(isRamaPos);
 
 //#8
 
-var strObj = {str: 'Мама мыла раму, рама мыла маму'};
+
 var strReplace = strObj.str.replace('мыла', 'моет');
 
 strReplace = strReplace.replace('рама', 'Рама');
@@ -113,16 +113,6 @@ console.log(myStr.toUpperCase());
 console.log('Любая Строка'.toLowerCase());
 
 
-/*Проверка кода
-
-var strObj = {str: 'Мама мыла раму, рама мыла маму'};
-strObj.length = strObj.str.length;
-
-console.log(strObj);
-console.log(strObj.length);
-console.log(strObj === 30);
-console.log(strObj.length === 30);
-*/
 
 
 
